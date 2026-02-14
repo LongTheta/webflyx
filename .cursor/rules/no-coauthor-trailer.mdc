@@ -1,0 +1,16 @@
+---
+description: Never add Co-authored-by trailer when committing
+alwaysApply: true
+---
+
+# Git commits: no Co-authored-by trailer
+
+When running `git commit` in this project, **never** use:
+
+- `--trailer "Co-authored-by: Cursor <cursoragent@cursor.com>"`
+- or any other Co-authored-by trailer for Cursor/AI
+
+Run plain commits only, e.g.:
+
+- `git commit -m "message"`
+- never: `git commit -m "message" --trailer "Co-authored-by: ..."`
